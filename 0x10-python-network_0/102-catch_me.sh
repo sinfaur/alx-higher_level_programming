@@ -1,3 +1,3 @@
 #!/bin/bash
-# makes request to `0.0.0.0:5000/catch_me` and causes server to respond with `You got me!` in body of response
-curl -sLX PUT -H "Origin: School" -d "user_id=98" 0.0.0.0:5000/catch_me
+# Script that makes a request to causes an specific response
+curl -sL 0.0.0.0:5000/catch_me_3 -X PUT -H "Origin:HolbertonSchool"
